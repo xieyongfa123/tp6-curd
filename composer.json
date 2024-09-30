@@ -1,11 +1,11 @@
 {
-    "name": "nickbai/tp6-curd",
+    "name": "xieyongfa/tp6-curd",
     "description": "基于thinkphp6的一键curd库",
     "require": {
         "php": ">=7.1",
         "ext-json": "*",
         "ext-curl": "*",
-        "topthink/framework": "^6.0.0",
+        "topthink/framework": "^6.0|^8.0",
         "symfony/var-exporter": "^5.3"
     },
     "license": "MIT",
@@ -17,7 +17,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "nickbai\\tp6curd\\": "src"
+            "xieyongfa\\tp6curd\\": "src"
         },
         "files": [
             "src/helper.php"
